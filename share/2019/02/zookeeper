@@ -1,0 +1,9 @@
+1、https://github.com/Snailclimb/JavaGuide/blob/master/%E4%B8%BB%E6%B5%81%E6%A1%86%E6%9E%B6/ZooKeeper.md
+
+使用场景：数据发布/订阅、负载均衡、命名服务、分布式协调/通知、集群管理、Master 选举、分布式锁和分布式队列
+
+ZooKeeper 本身就是一个分布式程序（只要半数以上节点存活，ZooKeeper 就能正常服务），为保证集群高可用，以集群模式部署。
+
+zookeeper将数据保存在内存中，保证了高吞吐量和低延迟，
+
+ZAB协议 和 Paxos算法
