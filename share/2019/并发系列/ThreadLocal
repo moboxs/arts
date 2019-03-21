@@ -1,0 +1,21 @@
+
+ThreadLocal
+    与当前线程相关的成员变量，为每个使用这个变量的线程提供一个变量的副本，将线程之间对变量的访问隔离开来。提供了线程封闭。
+
+    对比同步机制和ThreadLocal，可以得出同步机制是通过加锁的方式实现线程数据共享，也就是以时间换空间；而ThreadLocal则是以变量副本的方式通过空间换时间实现线程数据共享。
+
+ThreadLocal的设计原理：
+    用于防止对可变的单实例变量或者全局变量进行共享。
+
+    ThreadLocal是如何实现将当前线程与要访问的值关联？
+        通过ThreadLocalMap, 每个线程都有一个ThreadLocalMap副本，从而实现线程隔离
+        ThreadLocalMap 可以被当做垃圾回收，不必担心内存泄漏问题。
+
+
+ThreadLocal小结：
+
+    1、ThreadLocal指的是线程本地变量
+    2、主要使用场景是解决多线程中数据因并发产生不一致问题。
+    3、ThreadLocal实现线程隔离的核心是在于为每个访问该值的线程都创建了一个ThreadLocalMap对象。
+    4、与synchronized区别：synchronized用于线程间的数据共享，而ThreadLocal则用于线程间隔离，
+    5、在多线程情况下使用ThreadLocal创建的ThreadLocalMap不会产生内存溢出，因为存储数据的Entry是弱引用，线程执行结束后会被垃圾回收。
