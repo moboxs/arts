@@ -1,7 +1,5 @@
 package com.arts.LeetCode;
 
-import com.arts.LeetCode.common.ListNode;
-
 /**
  * 题目：两个非负整数的非空链表，数字以相反的方向存储，每个节点包含一个数字，两数相加 以链表形式返回结果。
  * 例：Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
@@ -14,8 +12,8 @@ public class AddTwoNumber {
         ListNode q = l1, p = l2, curr = resultHead;
         int carry = 0; //进位
         while (p != null || q != null) {
-            int x = (p != null) ? p.val : 0;
-            int y = (q != null) ? q.val : 0;
+            int x = (p != null) ? p.data : 0;
+            int y = (q != null) ? q.data : 0;
             int sum = x + y + carry;
             carry = sum/10;
 
@@ -47,7 +45,7 @@ public class AddTwoNumber {
         ListNode resLinkNode = addTwoNumber.addTwoNumber(l1, l2);
         ListNode l = resLinkNode;
         while (l != null) {
-            System.out.println(l.val);
+            System.out.println(l.data);
             l = l.next;
         }
 

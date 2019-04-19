@@ -16,6 +16,15 @@ public class TreeNode {
     }
 
     public void display() {
-        System.out.println(value);
+        System.out.print(value + " ");
+    }
+
+    @Override
+    public String toString() {
+        return "TreeNode{" +
+                "leftNode=" + leftNode +
+                ", rightNode=" + rightNode +
+                ", value=" + value +
+                '}';
     }
 }
