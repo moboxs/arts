@@ -6,11 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="arts" />
+        <module name="mo-gateway-web" />
+        <module name="rxjavademo" />
+        <module name="spring-aop" />
+        <module name="mo-gateway-admin" />
+        <module name="mo-gateway-common" />
+        <module name="nettybox" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="arts" target="1.5" />
+      <module name="mo-gateway" target="1.5" />
+      <module name="mo-gateway-admin" target="1.5" />
+      <module name="mo-gateway-common" target="1.5" />
+      <module name="mo-gateway-web" target="1.5" />
+      <module name="nettybox" target="8" />
+      <module name="rxjavademo" target="1.5" />
+      <module name="spring-aop" target="1.8" />
+      <module name="springaop" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-aop" options="-parameters" />
+    </option>
   </component>
 </project>
