@@ -1,0 +1,19 @@
+编写system管理文件
+目录 /usr/lib/systemd/system/*.service
+[Unit]
+[Service]
+[Install]
+
+systemctl 命令
+重新加载systemctl配置
+systemctl daemon-reload
+启动服务
+systemctl start *
+停止服务
+systemctl stop *
+设置开机自启动
+systemctl enable *
+检查是否开机自启动
+systemctl is-enabled *
+
+service

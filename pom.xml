@@ -8,10 +8,31 @@
     <artifactId>arts</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <spring.version>5.2.2.RELEASE</spring.version>
+    </properties>
+
+
     <modules>
         <module>nettybox</module>
         <module>rxjavademo</module>
+        <module>multiThread</module>
+        <module>java-beans-demo</module>
+        <module>thinking-in-spring</module>
+        <module>kafka-test</module>
+        <module>mylock</module>
     </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>${spring.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
@@ -32,6 +53,11 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.16.22</version>
+        </dependency>
+        <dependency>
+            <groupId>com.jd.jr.mqcloud</groupId>
+            <artifactId>kafka-client-ext</artifactId>
+            <version>1.0.2</version>
         </dependency>
 
 

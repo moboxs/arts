@@ -1,0 +1,61 @@
+安装依赖
+yum -y install make gcc gcc-c++ kernel-devel m4 ncurses-devel openssl-devel
+yum install unixODBC unixODBC-devel -y
+yum -y install ncurses-devel
+
+安装erlang
+wget http://distfiles.macports.org/erlang/otp_src_21.0.tar.gz
+tar -zxvf otp_src_21.0.tar.gz
+
+./configure --prefix=/usr/local/erlang
+make & make install
+set erlang enviorment
+export PATH=$PATH:/user/local/env/erlang/bin
+创建软链
+ln -s /usr/local/env/erlang/bin/erl /usr/local/bin/erl
+验证erlang是否安装成功
+erl
+
+安装rabbitmq
+wget https://github.com/rabbitmq/rabbitmq-server/releases/download/v3.7.9/rabbitmq-server-generic-unix-3.7.9.tar.xz
+yum install xz
+xz -d rabbitmq-server-generic-unix-3.7.9.tar.xz
+tar -xvf rabbitmq-server-generic-unix-3.7.9.tar
+
+export PATH=/usr/local/env/rabbitmq/sbin:$PATH
+
+启动
+rabbitmqctl stop
+rabbitmq-server start &
+
+Logs:
+/usr/local/env/rabbitmq/var/log/rabbitmq/rabbit@dataserver-12.log
+/usr/local/env/rabbitmq/var/log/rabbitmq/rabbit@dataserver-12_upgrade.log
+
+访问：172.16.1.12:15672
+账号密码 默认guest
+
+rabbitmqadmin安装
+wget http://172.16.1.12:15672/cli/rabbitmqadmin
+cp rabbitmqadmin ./sbin
+
+常用命令：
+rabbitmqctl list_users 列出所有用户
+创建队列用户
+rabbitmqctl add_user test 123456
+rabbitmqctl set_user_tags test administrator
+
+./rabbitmqctl add_vhost orderapi
+./rabbitmqctl add_vhost shopAd
+./rabbitmqctl add_vhost super-excel
+./rabbitmqctl set_permissions -p orderapi sbox '.*' '.*' '.*'
+./rabbitmqctl set_permissions -p shopAd sbox '.*' '.*' '.*'
+./rabbitmqctl set_permissions -p super-excel sbox '.*' '.*' '.*'
+
+./rabbitmqctl delete_vhost /orderapi
+./rabbitmqctl list_user_permissions guest
+./rabbitmqctl change_password sbox sbox@123456
+
+创建队列
+python rabbitmqadmin declare queue name=test  auto_delete=false durable=false  --username=test  --password=123456
+

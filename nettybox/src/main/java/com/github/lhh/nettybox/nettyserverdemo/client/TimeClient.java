@@ -19,6 +19,7 @@ public class TimeClient {
 
     static class MyThread implements Runnable {
 
+        @Override
         public void run() {
             connect("localhost", 8201);
         }

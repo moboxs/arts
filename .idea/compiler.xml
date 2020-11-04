@@ -7,23 +7,33 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mo-gateway-web" />
+        <module name="kafkatest" />
+        <module name="ioc-container-overview" />
+        <module name="mylock" />
         <module name="rxjavademo" />
         <module name="spring-aop" />
         <module name="mo-gateway-admin" />
+        <module name="multiThread" />
         <module name="mo-gateway-common" />
+        <module name="java-beans-demo" />
         <module name="nettybox" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
       <module name="arts" target="1.5" />
+      <module name="ioc-container-overview" target="1.5" />
+      <module name="java-beans-demo" target="1.5" />
+      <module name="kafkatest" target="1.5" />
       <module name="mo-gateway" target="1.5" />
       <module name="mo-gateway-admin" target="1.5" />
       <module name="mo-gateway-common" target="1.5" />
       <module name="mo-gateway-web" target="1.5" />
+      <module name="multiThread" target="1.5" />
+      <module name="mylock" target="6" />
       <module name="nettybox" target="8" />
       <module name="rxjavademo" target="1.5" />
       <module name="spring-aop" target="1.8" />
-      <module name="springaop" target="1.5" />
+      <module name="thinking-in-spring" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
