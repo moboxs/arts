@@ -38,5 +38,6 @@ public class MyAtoi {
         MyAtoi myAtoi = new MyAtoi();
 
         System.out.println(myAtoi.myAtoi(" -11231231231231234322342342342342a12a3123 aad"));
+
     }
 }

@@ -1,7 +1,5 @@
 package com.arts.DataStructure;
 
-import apple.laf.JRSUIUtils;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -179,10 +177,15 @@ public class BinaryTree {
         return root;
     }
 
-    //求两个二叉树的最低公共祖先节点
-//    TreeNode getLastCommonParent(TreeNode root1, TreeNode root2) {
-//
-//    }
+    //求两个节点的公共祖先节点
+    TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null || root == q || root == p) {
+            return root;
+        }
+        TreeNode left = lowestCommonAncestor(root.leftNode, p, q);
+        TreeNode right = lowestCommonAncestor(root.rightNode, p, q);
+        return left == null ? right : right == null ? left : root;
+    }
 
 
     //查找node是否在当前二叉树中

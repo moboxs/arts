@@ -15,13 +15,15 @@
 
 
     <modules>
-        <module>nettybox</module>
-        <module>rxjavademo</module>
-        <module>multiThread</module>
+        <module>netty-box</module>
+        <module>thread-demo</module>
         <module>java-beans-demo</module>
-        <module>thinking-in-spring</module>
-        <module>kafka-test</module>
-        <module>mylock</module>
+        <module>lock-demo</module>
+        <module>spring-demo</module>
+        <module>spring-demo</module>
+        <module>spring-demo</module>
+        <module>juc-demo</module>
+        <module>ibox-state</module>
     </modules>
 
     <dependencyManagement>

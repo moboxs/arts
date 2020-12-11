@@ -6,39 +6,50 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lock-demo" />
+        <module name="squirrel-foundation" />
         <module name="mo-gateway-web" />
-        <module name="kafkatest" />
         <module name="ioc-container-overview" />
-        <module name="mylock" />
-        <module name="rxjavademo" />
-        <module name="spring-aop" />
+        <module name="juc-demo" />
+        <module name="spring-demo" />
+        <module name="netty-box" />
         <module name="mo-gateway-admin" />
-        <module name="multiThread" />
+        <module name="state_machine" />
+        <module name="thread-demo" />
         <module name="mo-gateway-common" />
         <module name="java-beans-demo" />
-        <module name="nettybox" />
+        <module name="ibox-state" />
+      </profile>
+      <profile name="Annotation profile for kafka-demo" enabled="true">
+        <sourceOutputDir name="../kafka-test/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../kafka-test/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kafka-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="arts" target="1.5" />
-      <module name="ioc-container-overview" target="1.5" />
-      <module name="java-beans-demo" target="1.5" />
-      <module name="kafkatest" target="1.5" />
+      <module name="ibox-state" target="1.5" />
+      <module name="ioc-container-overview" target="8" />
+      <module name="java-beans-demo" target="8" />
+      <module name="juc-demo" target="1.5" />
+      <module name="kafka-demo" target="8" />
+      <module name="lock-demo" target="6" />
       <module name="mo-gateway" target="1.5" />
       <module name="mo-gateway-admin" target="1.5" />
       <module name="mo-gateway-common" target="1.5" />
       <module name="mo-gateway-web" target="1.5" />
-      <module name="multiThread" target="1.5" />
-      <module name="mylock" target="6" />
-      <module name="nettybox" target="8" />
-      <module name="rxjavademo" target="1.5" />
-      <module name="spring-aop" target="1.8" />
-      <module name="thinking-in-spring" target="1.5" />
+      <module name="netty-box" target="8" />
+      <module name="spring-demo" target="1.8" />
+      <module name="squirrel-foundation" target="1.8" />
+      <module name="state-box" target="1.5" />
+      <module name="state_machine" target="1.5" />
+      <module name="thread-demo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="spring-aop" options="-parameters" />
+      <module name="spring-demo" options="-parameters" />
     </option>
   </component>
 </project>

@@ -1,9 +1,9 @@
 package com.arts.DataStructure;
 
 public class TreeNode {
-    TreeNode leftNode;
-    TreeNode rightNode;
-    int value;
+    public TreeNode leftNode;
+    public TreeNode rightNode;
+    public int value;
 
     public TreeNode(int value) {
         this.value = value;

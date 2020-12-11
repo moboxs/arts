@@ -1,6 +1,5 @@
 package com.arts.LeetCode;
 
-import java.util.Arrays;
 import java.util.Deque;
 import java.util.LinkedList;
 //滑动窗口第K大

@@ -2,64 +2,258 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa9b2570-072c-4cb6-8f8c-653fb0daf3c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jd_jr_mqcloud_kafka_client_ext_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeTest/nodetest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeTest/src/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NodeTest/src/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-beans-demo/java-beans-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-beans-demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-beans-demo/src/main/java/com/github/hhl/java/beans/demo/BeanInfoDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-beans-demo/src/main/java/com/github/hhl/java/beans/demo/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-test/kafkatest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-test/src/main/java/KafkaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiThread/multiThread.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiThread/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiThread/src/main/java/com/github/hhl/AqsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiThread/src/main/java/com/github/hhl/CasDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiThread/src/main/java/com/github/hhl/Jvm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiThread/src/main/java/com/github/hhl/Runner1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiThread/src/main/java/com/github/hhl/Runner2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiThread/src/main/java/com/github/hhl/RunnerMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiThread/src/main/java/com/github/hhl/ThreadInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiThread/src/main/java/com/github/hhl/ThreadPoolDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/multiThread/src/main/java/com/github/hhl/aa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylock/mylock.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylock/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylock/src/main/java/Mutex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylock/src/main/java/TwinsLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mylock/src/main/java/TwinsLockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/Linux系统" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/服务组件/apollo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/服务组件/rabbitmq" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking-in-spring/ioc-container-overview/ioc-container-overview.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking-in-spring/ioc-container-overview/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking-in-spring/ioc-container-overview/src/main/java/com/github/hhl/thinking/in/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking-in-spring/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinking-in-spring/thinking-in-spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/com/arts/LeetCode/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/com/arts/LeetCode/KLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/com/arts/LeetCode/在排序数组中查找元素的第一个和最后一个位置/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/com/arts/LeetCode/搜索排序旋转数组/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/com/arts/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/com/arts/二分查找/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/com/arts/二分查找/求平方根/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/com/arts/剪枝/NQueens/NQueues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/com/arts/字典树/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/com/arts/广度优先搜索和广度优先搜索/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/com/arts/广度优先搜索和广度优先搜索/ChainQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/com/arts/广度优先搜索和广度优先搜索/GraphVertex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/com/arts/广度优先搜索和广度优先搜索/NoDirectionGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/com/arts/广度优先搜索和广度优先搜索/QueueNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/com/arts/广度优先搜索和广度优先搜索/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/com/arts/排序/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/com/arts/排序/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/algorithm/src/com/arts/生成有效括号组合/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ibox-state/src/main/java/com/ibox/state/service/AbstractOrderProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ibox-state/src/main/java/com/ibox/state/service/EOrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ibox-state/src/main/java/com/ibox/state/service/OprateOrderProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ibox-state/src/main/java/com/ibox/state/service/OrderStateManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ibox-state/src/main/java/com/ibox/state/service/zk/StateListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ibox-state/src/main/java/com/ibox/state/service/zk/ZookeeperRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ibox-state/src/main/java/com/ibox/state/service/zk/client/AbstractZookeeperClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ibox-state/src/main/java/com/ibox/state/service/zk/client/ZookeeperClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ibox-state/src/main/java/com/ibox/state/service/zk/client/impl/ZkClientZookeeperClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ibox-state/src/main/java/com/ibox/state/service/zk/test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/juc-demo/src/main/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-demo/src/main/java/ConsumerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-demo/src/main/java/KafkaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-demo/src/main/java/ProducerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lock-demo/src/main/java/MyReadWriteLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lock-demo/src/main/java/SyncCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/github/hhl/ThreadPoolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-demo/thread-demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava2_rxjava_2_2_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/arts.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nettybox/nettybox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nettybox/nettybox.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyserverdemo/client/TimeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyserverdemo/client/TimeClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserverdemo/client/TimeClient$MyThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserverdemo/client/TimeClient$MyThread$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserverdemo/client/TimeClient$MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserverdemo/client/TimeClient$MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NodeTest/nodetest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NodeTest/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NodeTest/src/test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NodeTest/src/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/com/arts/DataStructure/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/com/arts/DataStructure/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/com/arts/DataStructure/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/com/arts/DataStructure/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/com/arts/LeetCode/MyAtoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/com/arts/LeetCode/MyAtoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/com/arts/LeetCode/Reverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/com/arts/LeetCode/Reverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm/src/com/arts/LeetCode/SlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/com/arts/LeetCode/SlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-beans-demo/java-beans-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-beans-demo/java-beans-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-beans-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-beans-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-beans-demo/src/main/java/com/github/hhl/java/beans/demo/BeanInfoDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-beans-demo/src/main/java/com/github/hhl/java/beans/demo/BeanInfoDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-beans-demo/target/classes/META-INF/java-beans-demo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-beans-demo/target/classes/main/java/com/github/liuhonghao/java/beans/demo/BeanInfoDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-test/kafkatest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ibox-state/ibox-state.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-test/src/main/java/KafkaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mo-gateway/mo-gateway-admin/src/main/java/com/jd/mo/gateway/admin/AdminApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mo-gateway/mo-gateway-admin/src/main/java/com/jd/mo/gateway/admin/AdminApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/multiThread.iml" beforeDir="false" afterPath="$PROJECT_DIR$/juc-demo/juc-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/thread-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/src/main/java/com/github/hhl/AqsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo/src/main/java/AqsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/src/main/java/com/github/hhl/CasDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo/src/main/java/CasDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/src/main/java/com/github/hhl/Jvm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/src/main/java/com/github/hhl/Runner1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/src/main/java/com/github/hhl/Runner2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/src/main/java/com/github/hhl/RunnerMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/github/hhl/RunnerMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/src/main/java/com/github/hhl/ThreadInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/src/main/java/com/github/hhl/ThreadPoolDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-demo/src/main/java/com/github/hhl/ThreadPoolDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/src/main/java/com/github/hhl/aa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/target/classes/com/github/hhl/AqsDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/target/classes/com/github/hhl/CasDemo$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/target/classes/com/github/hhl/CasDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/target/classes/com/github/hhl/Jvm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/target/classes/com/github/hhl/Runner1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/target/classes/com/github/hhl/Runner2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/target/classes/com/github/hhl/RunnerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/thread-demo/target/classes/com/github/hhl/RunnerMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/target/classes/com/github/hhl/ThreadInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/target/classes/com/github/hhl/ThreadPoolDemo$MyRejectHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/thread-demo/target/classes/com/github/hhl/ThreadPoolDemo$MyRejectHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/target/classes/com/github/hhl/ThreadPoolDemo$MyThreadFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/thread-demo/target/classes/com/github/hhl/ThreadPoolDemo$MyThreadFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiThread/target/classes/com/github/hhl/ThreadPoolDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/thread-demo/target/classes/com/github/hhl/ThreadPoolDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylock/mylock.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo/lock-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylock/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylock/src/main/java/Mutex.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo/src/main/java/Mutex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylock/src/main/java/TwinsLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo/src/main/java/TwinsLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylock/src/main/java/TwinsLockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo/src/main/java/TwinsLockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylock/target/classes/Mutex$Sync.class" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo/target/classes/Mutex$Sync.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylock/target/classes/Mutex.class" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo/target/classes/Mutex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylock/target/classes/TwinsLock$Sync.class" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo/target/classes/TwinsLock$Sync.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylock/target/classes/TwinsLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo/target/classes/TwinsLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylock/target/classes/TwinsLockTest$MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo/target/classes/TwinsLockTest$MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mylock/target/classes/TwinsLockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/lock-demo/target/classes/TwinsLockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/nettybox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/netty-box.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/client/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/codec/FstSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/codec/FstSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/codec/TinyDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/codec/TinyDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/codec/TinyEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/codec/TinyEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/model/RequestInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/model/RequestInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/server/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/server/ServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/utils/SigarUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/utils/SigarUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyserializationdemo/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyserializationdemo/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyserializationdemo/client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyserializationdemo/client/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyserializationdemo/codec/FstSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyserializationdemo/codec/FstSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyserializationdemo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyserializationdemo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyserializationdemo/protocol/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyserializationdemo/protocol/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyserializationdemo/protocol/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyserializationdemo/protocol/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyserializationdemo/protocol/TinyDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyserializationdemo/protocol/TinyDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyserializationdemo/protocol/TinyEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyserializationdemo/protocol/TinyEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyserializationdemo/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyserializationdemo/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyserializationdemo/server/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyserializationdemo/server/ServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyserverdemo/PlainNioServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyserverdemo/PlainNioServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyserverdemo/client/TimeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyserverdemo/client/TimeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyserverdemo/client/TimeClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyserverdemo/client/TimeClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyserverdemo/server/TimeServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyserverdemo/server/TimeServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyserverdemo/server/TimeServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyserverdemo/server/TimeServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/libsigar-amd64-freebsd-6.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/libsigar-amd64-freebsd-6.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/libsigar-amd64-linux.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/libsigar-amd64-linux.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/libsigar-amd64-solaris.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/libsigar-amd64-solaris.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/libsigar-ia64-hpux-11.sl" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/libsigar-ia64-hpux-11.sl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/libsigar-ia64-linux.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/libsigar-ia64-linux.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/libsigar-pa-hpux-11.sl" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/libsigar-pa-hpux-11.sl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/libsigar-ppc-aix-5.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/libsigar-ppc-aix-5.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/libsigar-ppc-linux.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/libsigar-ppc-linux.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/libsigar-ppc64-aix-5.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/libsigar-ppc64-aix-5.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/libsigar-ppc64-linux.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/libsigar-ppc64-linux.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/libsigar-s390x-linux.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/libsigar-s390x-linux.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/libsigar-sparc-solaris.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/libsigar-sparc-solaris.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/libsigar-sparc64-solaris.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/libsigar-sparc64-solaris.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/libsigar-universal-macosx.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/libsigar-universal-macosx.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/libsigar-universal64-macosx.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/libsigar-universal64-macosx.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/libsigar-x86-freebsd-5.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/libsigar-x86-freebsd-5.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/libsigar-x86-freebsd-6.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/libsigar-x86-freebsd-6.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/libsigar-x86-linux.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/libsigar-x86-linux.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/libsigar-x86-solaris.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/libsigar-x86-solaris.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/sigar-amd64-winnt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/sigar-amd64-winnt.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/sigar-x86-winnt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/sigar-x86-winnt.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/src/main/resources/sigar/sigar-x86-winnt.lib" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/src/main/resources/sigar/sigar-x86-winnt.lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/META-INF/nettybox.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/client/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/client/Client$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/client/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/client/ClientHandler$HeartbeatTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/client/ClientHandler$HeartbeatTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/client/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/client/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/codec/FstSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/codec/FstSerializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/codec/TinyDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/codec/TinyDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/codec/TinyEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/codec/TinyEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/model/RequestInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/model/RequestInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/server/Server$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/server/Server$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/server/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/server/ServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/server/ServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/utils/SigarUtils$SingleSigar.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/utils/SigarUtils$SingleSigar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/utils/SigarUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyheartbeatdemo/utils/SigarUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserializationdemo/client/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserializationdemo/client/Client$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserializationdemo/client/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserializationdemo/client/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserializationdemo/client/ClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserializationdemo/client/ClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserializationdemo/codec/FstSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserializationdemo/codec/FstSerializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserializationdemo/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserializationdemo/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserializationdemo/protocol/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserializationdemo/protocol/Request.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserializationdemo/protocol/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserializationdemo/protocol/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserializationdemo/protocol/TinyDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserializationdemo/protocol/TinyDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserializationdemo/protocol/TinyEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserializationdemo/protocol/TinyEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserializationdemo/server/Server$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserializationdemo/server/Server$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserializationdemo/server/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserializationdemo/server/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserializationdemo/server/ServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserializationdemo/server/ServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserverdemo/PlainNioServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserverdemo/PlainNioServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserverdemo/client/TimeClient$MyThread$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserverdemo/client/TimeClient$MyThread$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserverdemo/client/TimeClient$MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserverdemo/client/TimeClient$MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserverdemo/client/TimeClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserverdemo/client/TimeClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserverdemo/client/TimeClientHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserverdemo/client/TimeClientHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserverdemo/server/TimeServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserverdemo/server/TimeServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserverdemo/server/TimeServer$ChildChannelHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserverdemo/server/TimeServer$ChildChannelHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserverdemo/server/TimeServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserverdemo/server/TimeServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/com/github/lhh/nettybox/nettyserverdemo/server/TimeServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/com/github/lhh/nettybox/nettyserverdemo/server/TimeServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/libsigar-amd64-freebsd-6.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/libsigar-amd64-freebsd-6.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/libsigar-amd64-linux.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/libsigar-amd64-linux.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/libsigar-amd64-solaris.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/libsigar-amd64-solaris.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/libsigar-ia64-hpux-11.sl" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/libsigar-ia64-hpux-11.sl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/libsigar-ia64-linux.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/libsigar-ia64-linux.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/libsigar-pa-hpux-11.sl" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/libsigar-pa-hpux-11.sl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/libsigar-ppc-aix-5.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/libsigar-ppc-aix-5.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/libsigar-ppc-linux.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/libsigar-ppc-linux.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/libsigar-ppc64-aix-5.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/libsigar-ppc64-aix-5.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/libsigar-ppc64-linux.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/libsigar-ppc64-linux.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/libsigar-s390x-linux.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/libsigar-s390x-linux.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/libsigar-sparc-solaris.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/libsigar-sparc-solaris.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/libsigar-sparc64-solaris.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/libsigar-sparc64-solaris.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/libsigar-universal-macosx.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/libsigar-universal-macosx.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/libsigar-universal64-macosx.dylib" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/libsigar-universal64-macosx.dylib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/libsigar-x86-freebsd-5.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/libsigar-x86-freebsd-5.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/libsigar-x86-freebsd-6.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/libsigar-x86-freebsd-6.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/libsigar-x86-linux.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/libsigar-x86-linux.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/libsigar-x86-solaris.so" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/libsigar-x86-solaris.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/sigar-amd64-winnt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/sigar-amd64-winnt.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nettybox/target/classes/sigar/sigar-x86-winnt.dll" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/target/classes/sigar/sigar-x86-winnt.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rxjavademo/rxjavademo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rxjavademo/rxjavademo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxjavademo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ibox-state/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxjavademo/rxjavademo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-demo/kafka-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxjavademo/src/main/java/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/Java虚拟机调优" beforeDir="false" afterPath="$PROJECT_DIR$/document/Java虚拟机调优" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/Linux系统" beforeDir="false" afterPath="$PROJECT_DIR$/document/Linux系统" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/MySQL/tips" beforeDir="false" afterPath="$PROJECT_DIR$/document/MySQL/tips" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/share.iml" beforeDir="false" afterPath="$PROJECT_DIR$/document/document.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/大型网站系统架构" beforeDir="false" afterPath="$PROJECT_DIR$/document/大型网站系统架构" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/并发系列/ThreadLocal" beforeDir="false" afterPath="$PROJECT_DIR$/document/并发系列/ThreadLocal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/并发系列/synchronized" beforeDir="false" afterPath="$PROJECT_DIR$/document/并发系列/synchronized" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/并发系列/并发的底层原理" beforeDir="false" afterPath="$PROJECT_DIR$/document/并发系列/并发的底层原理" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/并发系列/重排序和顺序一致性" beforeDir="false" afterPath="$PROJECT_DIR$/document/并发系列/重排序和顺序一致性" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/数据结构/二叉树" beforeDir="false" afterPath="$PROJECT_DIR$/document/数据结构/二叉树" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/服务组件/Kafka" beforeDir="false" afterPath="$PROJECT_DIR$/document/服务组件/Kafka" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/服务组件/apollo" beforeDir="false" afterPath="$PROJECT_DIR$/document/服务组件/apollo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/服务组件/rabbitmq" beforeDir="false" afterPath="$PROJECT_DIR$/document/服务组件/rabbitmq" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/服务组件/zookeeper" beforeDir="false" afterPath="$PROJECT_DIR$/document/服务组件/zookeeper" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/com/github/lhh/springaop/SpringAopApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/src/main/java/com/github/lhh/springaop/SpringAopApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/com/github/lhh/springaop/SpringApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/src/main/java/com/github/lhh/springaop/SpringApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/com/github/lhh/springaop/aop/MyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/src/main/java/com/github/lhh/springaop/aop/MyAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/com/github/lhh/springaop/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/src/main/java/com/github/lhh/springaop/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/java/com/github/lhh/springaop/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/src/main/java/com/github/lhh/springaop/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/src/test/java/com/github/lhh/springaop/SpringAopApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-demo/src/test/java/com/github/lhh/springaop/SpringAopApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateMachine/src/main/java/com/gaop/state/core/OrderStateManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateMachine/src/main/java/com/gaop/state/core/OrderStateManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stateMachine/src/test/java/com/gaop/test/StateMachineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateMachine/src/test/java/com/gaop/test/StateMachineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thinking-in-spring/ioc-container-overview/ioc-container-overview.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thinking-in-spring/ioc-container-overview/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/juc-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thinking-in-spring/ioc-container-overview/src/main/java/com/github/hhl/thinking/in/spring/ioc/overview/dependency/lookup/DependencyLookupDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thinking-in-spring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thinking-in-spring/thinking-in-spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tip/javatips/Crawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/tip/java/Crawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tip/javatips/ProducerAndConsumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/tip/java/ProducerAndConsumer/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tip/javatips/ProducerAndConsumer/Content.java" beforeDir="false" afterPath="$PROJECT_DIR$/tip/java/ProducerAndConsumer/Content.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tip/javatips/ProducerAndConsumer/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/tip/java/ProducerAndConsumer/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tip/javatips/ProducerAndConsumer/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/tip/java/ProducerAndConsumer/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tip/javatips/SingleInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/tip/java/SingleInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tip/javatips/WeightRandom.java" beforeDir="false" afterPath="$PROJECT_DIR$/tip/java/WeightRandom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tip/tip.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tip/tip.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,6 +288,8 @@
       <list>
         <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -104,8 +300,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.6.0" />
-        <option name="userSettingsFile" value="$USER_HOME$/apache-maven-3.6.0/conf/settings.xml" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="D:\ProgramFiles\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -113,10 +309,11 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1amj4SCQRVJk4QzCnuXxHChAe7F" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -129,33 +326,34 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="jdk.selected.PYTHON_MODULE" value="Python 3.8" />
-    <property name="last_opened_file_path" value="D:/alpha_ssp/ldsp-api" />
+    <property name="jdk.selected.PYTHON_MODULE" value="Python 3.6" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\arts\tip\javatips" />
+      <recent name="D:\project\arts\tip" />
+      <recent name="D:\project\arts\java-beans-demo\src\main\java" />
+      <recent name="$PROJECT_DIR$/tip" />
+      <recent name="$PROJECT_DIR$/share/2019/服务组件" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
       <recent name="com.github.lhh.springaop" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\project\arts\nettybox\src\main\resources" />
-      <recent name="D:\project\arts\nettybox\src\main\java\com\github\lhh\nettybox\nettyheartbeatdemo\codec" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.github.lhh.nettybox.nettyheartbeatdemo.codec" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\project\arts\java-beans-demo\src\main\java" />
-      <recent name="$PROJECT_DIR$/tip" />
-      <recent name="$PROJECT_DIR$/share/2019/服务组件" />
-      <recent name="$PROJECT_DIR$/share/2019" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\arts\nettybox\src\main\resources" />
+      <recent name="D:\project\arts\nettybox\src\main\java\com\github\lhh\nettybox\nettyheartbeatdemo\codec" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -170,13 +368,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwinsLockTest">
-    <configuration name="RunnerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.hhl.RunnerMain" />
-      <module name="multiThread" />
+  <component name="RunManager" selected="Application.Solution (1)">
+    <configuration name="AddTwoNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.arts.LeetCode.AddTwoNumber" />
+      <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.hhl.*" />
+          <option name="PATTERN" value="com.arts.LeetCode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,12 +382,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lhh.nettybox.nettyheartbeatdemo.server.Server" />
-      <module name="nettybox" />
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.arts.LeetCode.搜索排序旋转数组.Solution" />
+      <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.lhh.nettybox.nettyheartbeatdemo.server.*" />
+          <option name="PATTERN" value="com.arts.LeetCode.搜索排序旋转数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +395,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lhh.nettybox.nettyserverdemo.client.TimeClient" />
-      <module name="nettybox" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
+      <module name="algorithm" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.arts.生成有效括号组合.Test" />
+      <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.lhh.nettybox.nettyserverdemo.client.*" />
+          <option name="PATTERN" value="com.arts.生成有效括号组合.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,48 +415,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.github.lhh.nettybox.nettyserverdemo.server.TimeServer" />
-      <module name="nettybox" />
+    <configuration name="StateMachineTest.createTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="state_machine" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.github.lhh.nettybox.nettyserverdemo.server.*" />
+          <option name="PATTERN" value="com.gaop.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwinsLockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwinsLockTest" />
-      <module name="mylock" />
+      <option name="PACKAGE_NAME" value="com.gaop.test" />
+      <option name="MAIN_CLASS_NAME" value="com.gaop.test.StateMachineTest" />
+      <option name="METHOD_NAME" value="createTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringAopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-aop" />
+      <module name="spring-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.lhh.springaop.SpringAopApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Server (1)" />
-      <item itemvalue="Application.TimeServer" />
-      <item itemvalue="Application.TimeClient" />
-      <item itemvalue="Application.RunnerMain" />
+      <item itemvalue="Application.AddTwoNumber" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="JUnit.StateMachineTest.createTest" />
       <item itemvalue="Spring Boot.SpringAopApplication" />
-      <item itemvalue="Application.TwinsLockTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TwinsLockTest" />
-        <item itemvalue="Application.RunnerMain" />
-        <item itemvalue="Application.TimeClient" />
-        <item itemvalue="Application.TimeServer" />
-        <item itemvalue="Application.Server (1)" />
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.AddTwoNumber" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.StateMachineTest.createTest" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +501,28 @@
       <workItem from="1600940515016" duration="5939000" />
       <workItem from="1601277302509" duration="46000" />
       <workItem from="1603874208585" duration="18229000" />
-      <workItem from="1604280269890" duration="20878000" />
+      <workItem from="1604280269890" duration="42745000" />
+      <workItem from="1604629489754" duration="11793000" />
+      <workItem from="1604892382842" duration="592000" />
+      <workItem from="1605016073572" duration="10510000" />
+      <workItem from="1605150305360" duration="2416000" />
+      <workItem from="1605238574715" duration="5245000" />
+      <workItem from="1605492077092" duration="18769000" />
+      <workItem from="1605859162788" duration="4587000" />
+      <workItem from="1605864510221" duration="18289000" />
+      <workItem from="1606218962763" duration="1282000" />
+      <workItem from="1606389555706" duration="10310000" />
+      <workItem from="1606700471953" duration="16803000" />
+      <workItem from="1606724899808" duration="7952000" />
+      <workItem from="1606736254903" duration="19117000" />
+      <workItem from="1606976980063" duration="921000" />
+      <workItem from="1606979676695" duration="1242000" />
+      <workItem from="1607060824811" duration="599000" />
+      <workItem from="1607079541673" duration="599000" />
+      <workItem from="1607305571054" duration="599000" />
+      <workItem from="1607322358252" duration="120000" />
+      <workItem from="1607322503259" duration="1832000" />
+      <workItem from="1607664620150" duration="2431000" />
     </task>
     <servers />
   </component>
@@ -334,7 +556,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tip/javatips/Crawer.java</url>
+          <url>file://$PROJECT_DIR$/tip/java/Crawer.java</url>
           <line>23</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
@@ -354,18 +576,13 @@
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/algorithm/src/com/arts/DataStructure/BlockingQueueTest.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/algorithm/src/com/arts/LeetCode/Reverse.java</url>
-          <line>93</line>
+          <line>94</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/algorithm/src/com/arts/LeetCode/SlidingWindow.java</url>
-          <line>35</line>
+          <line>34</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -375,41 +592,41 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/algorithm/src/com/arts/DataStructure/BinaryTree.java</url>
-          <line>370</line>
+          <line>373</line>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/algorithm/src/com/arts/DataStructure/BinaryTree.java</url>
-          <line>294</line>
+          <line>297</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/algorithm/src/com/arts/DataStructure/BinaryTree.java</url>
-          <line>276</line>
+          <line>279</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/server/ServerHandler.java</url>
+          <url>file://$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/server/ServerHandler.java</url>
           <line>24</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/client/ClientHandler.java</url>
+          <url>file://$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/client/ClientHandler.java</url>
           <line>43</line>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/server/ServerHandler.java</url>
+          <url>file://$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/server/ServerHandler.java</url>
           <line>38</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/client/ClientHandler.java</url>
+          <url>file://$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/client/ClientHandler.java</url>
           <line>49</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/nettybox/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/client/Client.java</url>
+          <url>file://$PROJECT_DIR$/netty-box/src/main/java/com/github/lhh/nettybox/nettyheartbeatdemo/client/Client.java</url>
           <line>33</line>
           <option name="timeStamp" value="41" />
         </line-breakpoint>
@@ -417,6 +634,16 @@
           <url>jar://C:/java/src.zip!/java/util/concurrent/ThreadFactory.java</url>
           <line>57</line>
           <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kafka-demo/src/main/java/ProducerMain.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/kafka-demo/src/main/java/ConsumerMain.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/NodeTest/src/test.js</url>

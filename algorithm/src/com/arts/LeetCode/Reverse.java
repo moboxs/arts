@@ -87,6 +87,7 @@ public class Reverse {
         linkedList.addNode(4);
         linkedList.addNode(5);
         linkedList.addNode(6);
+        linkedList.addNode(1);
 
         //ListNode reverseList = reverse.reverseList(linkedList.head);
         //System.out.println(reverseList);

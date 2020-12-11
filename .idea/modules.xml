@@ -4,21 +4,22 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/algorithm/algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/arts.iml" filepath="$PROJECT_DIR$/arts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/document/document.iml" filepath="$PROJECT_DIR$/document/document.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ibox-state/ibox-state.iml" filepath="$PROJECT_DIR$/ibox-state/ibox-state.iml" />
       <module fileurl="file://$PROJECT_DIR$/thinking-in-spring/ioc-container-overview/ioc-container-overview.iml" filepath="$PROJECT_DIR$/thinking-in-spring/ioc-container-overview/ioc-container-overview.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-beans-demo/java-beans-demo.iml" filepath="$PROJECT_DIR$/java-beans-demo/java-beans-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/kafka-test/kafkatest.iml" filepath="$PROJECT_DIR$/kafka-test/kafkatest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/juc-demo/juc-demo.iml" filepath="$PROJECT_DIR$/juc-demo/juc-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kafka-demo/kafka-demo.iml" filepath="$PROJECT_DIR$/kafka-demo/kafka-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lock-demo/lock-demo.iml" filepath="$PROJECT_DIR$/lock-demo/lock-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/mo-gateway/mo-gateway.iml" filepath="$PROJECT_DIR$/mo-gateway/mo-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/mo-gateway/mo-gateway-admin/mo-gateway-admin.iml" filepath="$PROJECT_DIR$/mo-gateway/mo-gateway-admin/mo-gateway-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/mo-gateway/mo-gateway-common/mo-gateway-common.iml" filepath="$PROJECT_DIR$/mo-gateway/mo-gateway-common/mo-gateway-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/mo-gateway/mo-gateway-web/mo-gateway-web.iml" filepath="$PROJECT_DIR$/mo-gateway/mo-gateway-web/mo-gateway-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/multiThread/multiThread.iml" filepath="$PROJECT_DIR$/multiThread/multiThread.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mylock/mylock.iml" filepath="$PROJECT_DIR$/mylock/mylock.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nettybox/nettybox.iml" filepath="$PROJECT_DIR$/nettybox/nettybox.iml" />
-      <module fileurl="file://$PROJECT_DIR$/nodetest/nodetest.iml" filepath="$PROJECT_DIR$/nodetest/nodetest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rxjavademo/rxjavademo.iml" filepath="$PROJECT_DIR$/rxjavademo/rxjavademo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/share/share.iml" filepath="$PROJECT_DIR$/share/share.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-aop/spring-aop.iml" filepath="$PROJECT_DIR$/spring-aop/spring-aop.iml" />
-      <module fileurl="file://$PROJECT_DIR$/thinking-in-spring/thinking-in-spring.iml" filepath="$PROJECT_DIR$/thinking-in-spring/thinking-in-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-box/netty-box.iml" filepath="$PROJECT_DIR$/netty-box/netty-box.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-demo.iml" filepath="$PROJECT_DIR$/spring-demo/spring-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/squirrel/squirrel-foundation/squirrel-foundation.iml" filepath="$PROJECT_DIR$/squirrel/squirrel-foundation/squirrel-foundation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stateMachine/state_machine.iml" filepath="$PROJECT_DIR$/stateMachine/state_machine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thread-demo/thread-demo.iml" filepath="$PROJECT_DIR$/thread-demo/thread-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/tip/tip.iml" filepath="$PROJECT_DIR$/tip/tip.iml" />
     </modules>
   </component>
