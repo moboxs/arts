@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/mo-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/stateMachine/pom.xml" />
         <option value="$PROJECT_DIR$/squirrel/squirrel-foundation/pom.xml" />
+        <option value="$PROJECT_DIR$/db-demo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -54,24 +55,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$" />
-  </component>
-  <component name="RemoteRepositoriesConfiguration">
-    <remote-repository>
-      <option name="id" value="central" />
-      <option name="name" value="Maven Central repository" />
-      <option name="url" value="https://repo1.maven.org/maven2" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="jboss.community" />
-      <option name="name" value="JBoss Community repository" />
-      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
-    </remote-repository>
-    <remote-repository>
-      <option name="id" value="781b8ad4-3a6d-41fb-93a3-b9c2bc16e309" />
-      <option name="name" value="781b8ad4-3a6d-41fb-93a3-b9c2bc16e309" />
-      <option name="url" value="https://192.168.56.161:8081/repository/psc-public" />
-    </remote-repository>
   </component>
 </project>

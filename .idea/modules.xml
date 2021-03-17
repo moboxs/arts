@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/algorithm/algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/arts.iml" filepath="$PROJECT_DIR$/arts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db-demo/db-demo.iml" filepath="$PROJECT_DIR$/db-demo/db-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/document/document.iml" filepath="$PROJECT_DIR$/document/document.iml" />
       <module fileurl="file://$PROJECT_DIR$/ibox-state/ibox-state.iml" filepath="$PROJECT_DIR$/ibox-state/ibox-state.iml" />
       <module fileurl="file://$PROJECT_DIR$/thinking-in-spring/ioc-container-overview/ioc-container-overview.iml" filepath="$PROJECT_DIR$/thinking-in-spring/ioc-container-overview/ioc-container-overview.iml" />

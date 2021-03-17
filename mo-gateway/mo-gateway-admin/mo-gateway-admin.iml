@@ -22,7 +22,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:unknown" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-actuator:unknown" level="project" />
   </component>
 </module>
