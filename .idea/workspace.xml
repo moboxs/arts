@@ -5,25 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa9b2570-072c-4cb6-8f8c-653fb0daf3c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/algorithm/src/com/leetcode/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db-demo/src/main/java/com/github/arts/dbdemo/config/ShadingSphereFactoryDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db-demo/src/main/java/com/github/arts/dbdemo/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document/MySQL/MySQL主从复制.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/document/MySQL/MySQl事务.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-shardingsphere-demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-shardingsphere-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-shardingsphere-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-shardingsphere-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-shardingsphere-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-shardingsphere-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-shardingsphere-demo/src/main/java/com/github/arts/dbdemo/DbDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-shardingsphere-demo/src/main/java/com/github/arts/dbdemo/config/ShadingSphereFactoryDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-shardingsphere-demo/src/main/java/com/github/arts/dbdemo/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-shardingsphere-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-shardingsphere-demo/src/test/java/com/github/arts/dbdemo/DbDemoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_unknown.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_unknown.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_30_Final.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm/src/com/arts/LeetCode/在排序数组中查找元素的第一个和最后一个位置/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm/src/com/arts/LeetCode/在排序数组中查找元素的第一个和最后一个位置/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arts.iml" beforeDir="false" afterPath="$PROJECT_DIR$/arts.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/MySQL/tips" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mo-gateway/mo-gateway-admin/mo-gateway-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mo-gateway/mo-gateway-admin/mo-gateway-admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-demo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-demo/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-demo/src/main/java/com/github/arts/dbdemo/DbDemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-demo/src/main/java/com/github/arts/dbdemo/config/ShadingSphereFactoryDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-demo/src/main/java/com/github/arts/dbdemo/controller/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db-demo/src/test/java/com/github/arts/dbdemo/DbDemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-box/netty-box.iml" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/netty-box.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-box/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty-box/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stateMachine" beforeDir="false" afterPath="$PROJECT_DIR$/stateMachine" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stateMachine/src/main/java/com/gaop/state/core/OrderStateManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateMachine/src/main/java/com/gaop/state/core/OrderStateManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stateMachine/src/test/java/com/gaop/test/StateMachineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/stateMachine/src/test/java/com/gaop/test/StateMachineTest.java" afterDir="false" />
@@ -107,7 +118,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.30365855" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
@@ -206,7 +217,7 @@
       </method>
     </configuration>
     <configuration name="DbDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="db-demo" />
+      <module name="springboot-shardingsphere-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.arts.dbdemo.DbDemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -314,7 +325,7 @@
       <workItem from="1615293327551" duration="101000" />
       <workItem from="1615442934667" duration="4536000" />
       <workItem from="1615529466937" duration="660000" />
-      <workItem from="1615803284807" duration="11776000" />
+      <workItem from="1615803284807" duration="20960000" />
     </task>
     <servers />
   </component>
@@ -437,12 +448,12 @@
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/db-demo/src/main/java/com/github/arts/dbdemo/controller/OrderController.java</url>
+          <url>file://$PROJECT_DIR$/springboot-shardingsphere-demo/src/main/java/com/github/arts/dbdemo/controller/OrderController.java</url>
           <line>22</line>
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/db-demo/src/main/java/com/github/arts/dbdemo/config/ShadingSphereFactoryDataSource.java</url>
+          <url>file://$PROJECT_DIR$/springboot-shardingsphere-demo/src/main/java/com/github/arts/dbdemo/config/ShadingSphereFactoryDataSource.java</url>
           <line>72</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
@@ -457,7 +468,7 @@
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/db-demo/src/main/java/com/github/arts/dbdemo/controller/OrderController.java</url>
+          <url>file://$PROJECT_DIR$/springboot-shardingsphere-demo/src/main/java/com/github/arts/dbdemo/controller/OrderController.java</url>
           <line>16</line>
           <properties field="shardingDataSource" class="com.github.arts.dbdemo.controller.OrderController" />
           <option name="timeStamp" value="50" />

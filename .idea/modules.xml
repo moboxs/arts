@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/algorithm/algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/arts.iml" filepath="$PROJECT_DIR$/arts.iml" />
-      <module fileurl="file://$PROJECT_DIR$/db-demo/db-demo.iml" filepath="$PROJECT_DIR$/db-demo/db-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/document/document.iml" filepath="$PROJECT_DIR$/document/document.iml" />
       <module fileurl="file://$PROJECT_DIR$/ibox-state/ibox-state.iml" filepath="$PROJECT_DIR$/ibox-state/ibox-state.iml" />
       <module fileurl="file://$PROJECT_DIR$/thinking-in-spring/ioc-container-overview/ioc-container-overview.iml" filepath="$PROJECT_DIR$/thinking-in-spring/ioc-container-overview/ioc-container-overview.iml" />
@@ -18,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/mo-gateway/mo-gateway-web/mo-gateway-web.iml" filepath="$PROJECT_DIR$/mo-gateway/mo-gateway-web/mo-gateway-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-box/netty-box.iml" filepath="$PROJECT_DIR$/netty-box/netty-box.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-demo/spring-demo.iml" filepath="$PROJECT_DIR$/spring-demo/spring-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-shardingsphere-demo/springboot-shardingsphere-demo.iml" filepath="$PROJECT_DIR$/springboot-shardingsphere-demo/springboot-shardingsphere-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/squirrel/squirrel-foundation/squirrel-foundation.iml" filepath="$PROJECT_DIR$/squirrel/squirrel-foundation/squirrel-foundation.iml" />
       <module fileurl="file://$PROJECT_DIR$/stateMachine/state_machine.iml" filepath="$PROJECT_DIR$/stateMachine/state_machine.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread-demo/thread-demo.iml" filepath="$PROJECT_DIR$/thread-demo/thread-demo.iml" />

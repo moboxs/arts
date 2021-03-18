@@ -6,12 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="db-demo" />
         <module name="netty-box" />
         <module name="mo-gateway-common" />
         <module name="squirrel-foundation" />
         <module name="lock-demo" />
         <module name="spring-demo" />
+        <module name="springboot-shardingsphere-demo" />
         <module name="ibox-state" />
         <module name="state_machine" />
         <module name="mo-gateway-web" />
@@ -30,7 +30,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="arts" target="1.5" />
-      <module name="db-demo" target="1.8" />
       <module name="ibox-state" target="1.5" />
       <module name="ioc-container-overview" target="8" />
       <module name="java-beans-demo" target="8" />
@@ -43,6 +42,7 @@
       <module name="mo-gateway-web" target="1.5" />
       <module name="netty-box" target="8" />
       <module name="spring-demo" target="1.8" />
+      <module name="springboot-shardingsphere-demo" target="1.8" />
       <module name="squirrel-foundation" target="1.8" />
       <module name="state_machine" target="1.5" />
       <module name="thread-demo" target="1.5" />
@@ -50,8 +50,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="db-demo" options="-parameters" />
       <module name="spring-demo" options="-parameters" />
+      <module name="springboot-shardingsphere-demo" options="-parameters" />
     </option>
   </component>
 </project>
